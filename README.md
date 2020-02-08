@@ -7,12 +7,20 @@ https://justinmeiners.github.io/lc3-vm/
 Except the c code was converted to Java to simulate a gui based version of it.
 
 Other notes:
-Test with Java 8 Windows 10 (64 bit). You will need Java 7 or 8, Ant 1.9+ or Exlipse for Java.
+Test with Java 8 on Windows 10 (64 bit). You will need Java 7 or 8, Ant 1.9+ or Exlipse for Java.
 
-Status: Not completely working as of Feb 07 2020.
+Status: See issues.
 
-COMPILE INSTRUCTIONS: Please create an empty "lib" folder inside tiny-vm-C-version in order for ant to run. Goto the ant folder inside 'tiny-vm-C-version', then Run batch files steps 1-3.
+COMPILE instructions for windows if using ant: Open dos window and in the SAME window run the following commands:
+[Please setup your java and ant home in 1.init.bat file FIRST!]
 
-To run: edit the run.bat file to point to your JAVA_HOME and then run the batch file. Also edit the string "IMAGE_FOLDER" inside tiny.vm.CPU.java class to point to the 2048.obj image. E.g. 
-c:/user/faiz/<pathtofoldercontaining2048.obj>/
+dos_prompt>cd c:\pathto\lc3vm-java\tiny-vm-C-version\ant
+dos_prompt>1.init
+dos_prompt>2.clean
+dos_prompt>3.compile
+
+RUN instructions for windows:
+
+dos_prompt>cd ../..
+dos_prompt>run
 

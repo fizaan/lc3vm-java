@@ -15,7 +15,7 @@ import window.WindowFrame;
 
 public class CPU {
 
-	public static final String IMAGE_FOLDER=">FOLDER_PATH_TO_2048.OBJ";
+	public static final String IMAGE_FOLDER="";
 	private JTextArea textArea;
 
 	public JTextArea getJTArea() { return textArea; }
