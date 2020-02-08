@@ -11,8 +11,6 @@ Test with Java 8 Windows 10 (64 bit).
 
 Status: Not completely working as of Feb 07 2020.
 
-To run, simply edit the bat file and update the IMAGE_FOLDER string variable in tiny.vm.CPU.java file so that it point to 2048.obj image which is loaded into the VM.
-
 COMPILE INSTRUCTIONS:
-Sorry I forgot to mention. I wrote this code in Eclipse for Java so if you have that simply create a new project and import the folder tiny-vm-C-version into your new project. This code was compiled with Java 8.
+Goto the ant folder inside 'tiny-vm-C-version'. Run batch files steps 1-3.
 
