@@ -1,6 +1,6 @@
 @echo off
 
-set JAVA_HOME=C:\<YOUR_JAVA_HOME_PATH>
+set JAVA_HOME=C:\Users\Alifa\Desktop\mystuff\faiz.dev.root\java8
 set path=%JAVA_HOME%\bin;
 
 java -cp %cd%\tiny-vm-C-version\bin; tiny.vm.CPU
