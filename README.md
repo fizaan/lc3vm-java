@@ -14,7 +14,7 @@ Status: See issues.
 COMPILE instructions for windows if using ant: Open dos window and in the SAME window run the following commands:
 [Please setup your java and ant home in 1.init.bat file FIRST!]
 
-dos_prompt>cd c:\pathto\lc3vm-java\tiny-vm-C-version\ant
+dos_prompt>cd c:\pathto\lc3vm-java\tiny-vm-C-version\ant <br/>
 dos_prompt>1.init
 dos_prompt>2.clean
 dos_prompt>3.compile
