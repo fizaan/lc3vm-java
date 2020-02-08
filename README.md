@@ -14,3 +14,5 @@ Status: Not completely working as of Feb 07 2020.
 COMPILE INSTRUCTIONS:
 Goto the ant folder inside 'tiny-vm-C-version'. Run batch files steps 1-3.
 
+To run: edit the run.bat file to point to your JAVA_HOME and then run the batch file.
+
