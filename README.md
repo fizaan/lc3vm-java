@@ -14,7 +14,7 @@ Status: See issues.
 Edit tiny.vm.CPU.java file to change the <b>IMAGE_FOLDER</b> string so that it points to the folder containing the image 2048.obj </br>
 e.g: public static final String IMAGE_FOLDER="c:/user/faiz/desktop/";
 
-COMPILE instructions for windows if using ant: Open dos window and in the SAME window run the following commands:
+COMPILE instructions for windows if using ant: Open dos window and <i>in the SAME window</i>, run the following commands:
 [Please setup your java and ant home in 1.init.bat file FIRST!]
 
 dos_prompt>cd c:\pathto\lc3vm-java\tiny-vm-C-version\ant </br>
