@@ -12,7 +12,9 @@ Test with Java 8 on Windows 10 (64 bit). You will need Java 7 or 8, Ant 1.9+ or 
 Status: See issues.
 
 Edit tiny.vm.CPU.java file to change the <b>IMAGE_FOLDER</b> string so that it points to the folder containing the image 2048.obj <br/>
-e.g: public static final String IMAGE_FOLDER="c:/user/faiz/desktop/"; <br/> If using Eclipse just import into a new project, edit the String, and skip instructions below.
+e.g: public static final String IMAGE_FOLDER="c:/user/faiz/desktop/"; <br/><br/> 
+
+<i>If using Eclipse just import into a new project, edit the String, and skip instructions below.</i><br/><br/>
 
 COMPILE instructions for windows if using ant: Open dos window and <i>in the SAME window</i>, run the following commands:
 [Please setup your java and ant home in 1.init.bat file FIRST!]
