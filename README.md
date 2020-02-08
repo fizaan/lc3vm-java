@@ -7,12 +7,12 @@ https://justinmeiners.github.io/lc3-vm/
 Except the c code was converted to Java to simulate a gui based version of it.
 
 Other notes:
-Test with Java 8 on Windows 10 (64 bit). You will need Java 7 or 8, Ant 1.9+ or Exlipse for Java.
+Test with Java 8 on Windows 10 (64 bit). You will need Java 7 or 8, Ant 1.9+ or Eclipse for Java.
 
 Status: See issues.
 
 Edit tiny.vm.CPU.java file to change the <b>IMAGE_FOLDER</b> string so that it points to the folder containing the image 2048.obj <br/>
-e.g: public static final String IMAGE_FOLDER="c:/user/faiz/desktop/";
+e.g: public static final String IMAGE_FOLDER="c:/user/faiz/desktop/"; <br/> If using Eclipse just import into a new project, edit the String, and skip instructions below.
 
 COMPILE instructions for windows if using ant: Open dos window and <i>in the SAME window</i>, run the following commands:
 [Please setup your java and ant home in 1.init.bat file FIRST!]
