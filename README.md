@@ -11,3 +11,5 @@ Test with Java 8 Windows 10 (64 bit).
 
 Status: Not completely working as of Feb 07 2020.
 
+To run, simply edit the bat file and update the IMAGE_FOLDER string variable in tiny.vm.CPU.java file.
+
