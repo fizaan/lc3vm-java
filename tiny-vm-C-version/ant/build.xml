@@ -4,12 +4,12 @@
 
     <property name="build.dir"   value="bin"/>
     <property name="classes.dir" value="${build.dir}"/>
-    <property name="lib.dir"     value="${basedir}/jarfolder"/>
+    <property name="lib.dir"     value="${basedir}/folder"/>
 
     <property name="main-class"  value="tiny.vm.CPU"/>
     
     <path id="compile.classpath">
-    		<fileset dir="jarfolder">
+    		<fileset dir="folder">
     			<include name="*.jar"/>
     		</fileset>
     	</path>
