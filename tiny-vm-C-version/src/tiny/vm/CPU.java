@@ -15,7 +15,7 @@ import window.WindowFrame;
 
 public class CPU {
 
-	public static final String IMAGE_FOLDER="";
+	public static final String IMAGE_FOLDER="c:/user/faiz/desktop/";
 	private JTextArea textArea;
 
 	public JTextArea getJTArea() { return textArea; }
